@@ -6,7 +6,7 @@ metadata:
     run: debug
     status: test
   name: debug
-  namespace: dev
+  namespace: stage
 spec:
   containers:
   - image: ghcr.io/wolcn/debug:1.0.0
