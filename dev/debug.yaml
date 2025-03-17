@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: debug
+    status: test
   name: debug
   namespace: default
 spec:
