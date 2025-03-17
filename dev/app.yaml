@@ -32,7 +32,7 @@ spec:
         env:
         - name: COLOUR # HTML colour name for background colour
           # Examples "Cornsilk","Bisque","Wheat","NavajoWhite","Moccasin","LightSteelBlue","DarkSeaGreen","SeaGreen","Khaki","Silver"
-          value: "LightSteelBlue"
+          value: "Cornsilk"
         - name: CONTENT # Content string; useful when checking if deployment has been updated
           value: "OK a test message"
 ---
