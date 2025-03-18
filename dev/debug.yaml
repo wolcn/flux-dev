@@ -4,8 +4,9 @@ metadata:
   labels:
     app: debug
   name: debug
+  namespace: dev
 spec:
-  replicas: 2
+  replicas: r12
   selector:
     matchLabels:
       app: debug
