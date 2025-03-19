@@ -1,17 +1,12 @@
 # GitOps test manifest; update, push and wait for whatever GitOps tool used does its duty
 ---
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: dev
-  labels:
-    env: development
+# Namespaces will be already created, when the tenant is configured
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kcheck
-  namespace: dev
+  namespace: fluxdemo-dev
   labels:
     type: front-end
 spec:
@@ -40,7 +35,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: kcheck-service
-  namespace: dev
+  namespace: fluxdemo-dev
   labels:
     app: kcheck
     type: service
