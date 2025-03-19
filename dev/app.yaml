@@ -29,7 +29,7 @@ spec:
           # Examples "Cornsilk","Bisque","Wheat","NavajoWhite","Moccasin","LightSteelBlue","DarkSeaGreen","SeaGreen","Khaki","Silver"
           value: "Cornsilk"
         - name: CONTENT # Content string; useful when checking if deployment has been updated
-          value: "OK a test message"
+          value: "Test message"
 ---
 apiVersion: v1
 kind: Service
